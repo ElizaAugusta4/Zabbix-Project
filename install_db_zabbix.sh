@@ -11,7 +11,7 @@ echo "### Verificando se MySQL está instalado..."
 if ! command -v mysql >/dev/null 2>&1; then
   echo "MySQL não encontrado. Instalando mysql-server..."
   apt update
-  DEBIAN_FRONTEND=noninteractive apt install -y mysql-server
+  apt install -y mysql-server
 else
   echo "MySQL já instalado."
 fi
