@@ -35,7 +35,7 @@ zabbix-project/
 │   └── install_db_Zabbix.sh
 └── README.md
 
-````
+```
 
 ## 🚀 Como usar
 
@@ -43,7 +43,7 @@ zabbix-project/
    ```bash
    git clone https://github.com/ElizaAugusta4/Zabbix-Project.git
    cd Zabbix-Project
-````
+   ```
 
 2. Dê permissão de execução aos scripts:
 
